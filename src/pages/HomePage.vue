@@ -71,10 +71,14 @@
         icon="https://placehold.co/200x200"
       />
     </div>
+
+    <ContactForm />
   </div>
 </template>
 <script setup>
 import Feature from "@/components/Feature.vue";
+import ContactForm from "@/components/ContactForm.vue";
+
 const fzooldata =
   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates dignissimos voluptate, necessitatibus dolorum, quisquam quasi magnam aspernatur laborum eaque blanditiis non tempora ipsum ratione quidem odit quis omnis molestias id.";
 </script>
