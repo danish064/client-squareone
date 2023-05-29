@@ -1,14 +1,15 @@
 <template>
-  <div class="w-full h-20 text-white bg-primary">
+  <div class="w-full h-28 text-white bg-primary sticky top-0">
     <div
       class="max-w-[1200px] w-full h-full mx-auto flex justify-between items-center"
     >
       <RouterLink
         to="/"
         id="logo"
-        class="text-3xl h-full flex items-center px-5 bg-[#252628] cursor-pointer"
+        class="text-3xl h-full flex items-center p-2 bg-[#252628] cursor-pointer"
       >
-        Square One
+        <!-- Square One -->
+        <img class="h-full" src="@/assets/SO-logo.svg" alt="" />
       </RouterLink>
       <RouterLink
         to="/contact"

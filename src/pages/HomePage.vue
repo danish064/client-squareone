@@ -1,15 +1,10 @@
 <template>
-  <!-- <div class="max-w-[1200px] mx-auto mb-10 py-10 text-5xl font-medium">
-    Let us manage your properties
-  </div> -->
-
   <div id="hero">
-    <!-- Welcome to -->
     <div class="text-[70px] font-medium">SquareOne</div>
     <div class="pb-10">Your Premier Property Dealing Company</div>
   </div>
 
-  <div class="max-w-[1200px] mx-auto py-10">
+  <div class="max-w-[1200px] mx-auto pt-20">
     <div class="flex gap-x-10 justify-between">
       <div class="w-1/2">
         <div class="text-3xl font-medium mb-10">Why SquareOne?</div>
@@ -21,7 +16,7 @@
         satisfaction, choose SquareOne for an unparalleled property journey.
         Welcome to SquareOne, where excellence is our standard.
       </div>
-      <img src="https://placehold.co/400x300" alt="" />
+      <img src="@/assets/images/buildings.jpg" width="450" alt="" />
     </div>
   </div>
   <div class="max-w-[1200px] mx-auto mt-32">
@@ -32,24 +27,24 @@
     <div class="flex mb-10">
       <Feature
         rtl="true"
-        heading="Service 1"
+        heading="Rent Out"
         :desc="fzooldata"
         icon="https://placehold.co/200x200"
       />
       <Feature
-        heading="Service 2"
+        heading="Mantinance"
         :desc="fzooldata"
         icon="https://placehold.co/200x200"
       />
     </div>
     <div class="flex mb-10">
       <Feature
-        heading="Service 3"
+        rtl="true"
+        heading="Ownership protection"
         :desc="fzooldata"
         icon="https://placehold.co/200x200"
       />
       <Feature
-        rtl="true"
         heading="Service 4"
         :desc="fzooldata"
         icon="https://placehold.co/200x200"
