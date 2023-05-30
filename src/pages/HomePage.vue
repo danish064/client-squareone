@@ -151,6 +151,19 @@
         icon="https://placehold.co/200x200"
       />
     </div>
+    <div class="flex mb-10">
+      <Feature
+        heading="Peace of Mind"
+        :desc="peaceOfMindData"
+        icon="https://placehold.co/200x200"
+      />
+      <Feature
+        rtl="true"
+        heading="Service 8"
+        :desc="fzooldata"
+        icon="https://placehold.co/200x200"
+      />
+    </div>
 
     <ContactForm />
   </div>
@@ -166,6 +179,8 @@ const reportsData =
   "During your tenure with us, we will provide you with regular condition reports to keep you informed about the current state of your property. These reports will offer a comprehensive overview of the property's condition, ensuring that you have a clear understanding of its upkeep and any necessary maintenance or repairs. With these reports in hand, you can stay updated and make informed decisions regarding the management and maintenance of your property.";
 const recordKeepingData =
   "We handle all essential documentation and administrative tasks related to your property, ensuring a seamless experience for you. This includes managing service requests that take place in your home, maintaining thorough inspection reports, and keeping accurate financial records. We diligently handle tasks such as organizing bank statements and slips, ensuring that all financial transactions are properly documented and accounted for. You can trust us to take care of these crucial administrative responsibilities, providing you with peace of mind and a hassle-free property management experience.";
+const peaceOfMindData =
+  "We understand that real estate investors seek a hassle-free and profitable experience when it comes to managing their properties. That's why we provide stress-free property management services tailored to meet the needs of our clients. Our team is committed to delivering the best-in-class and personalized services, ensuring that you can enjoy the benefits of your investment without the burden of day-to-day management and maintenance tasks. We offer these services at a reasonable and competitive fee, providing you with peace of mind and a smooth, efficient property management experience.";
 const fzooldata =
   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates dignissimos voluptate, necessitatibus dolorum, quisquam quasi magnam aspernatur laborum eaque blanditiis non tempora ipsum ratione quidem odit quis omnis molestias id.";
 </script>
