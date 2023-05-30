@@ -65,7 +65,7 @@ const props = defineProps({
     }
   }
   > img {
-    @apply max-h-[350px];
+    @apply max-h-[350px] mt-[60px];
     /* @apply max-w-[388px]; */
   }
 }
