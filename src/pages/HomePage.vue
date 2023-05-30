@@ -128,7 +128,7 @@
     <div class="flex mb-10">
       <Feature
         heading="Ownership protection"
-        :desc="fzooldata"
+        :desc="ownershipProtectionData"
         icon="https://placehold.co/200x200"
       />
       <Feature
@@ -159,8 +159,8 @@
       />
       <Feature
         rtl="true"
-        heading="Service 8"
-        :desc="fzooldata"
+        heading="Premier New Immigrant Experience"
+        :desc="newImmigrantData"
         icon="https://placehold.co/200x200"
       />
     </div>
@@ -173,6 +173,8 @@ import Feature from "@/components/Feature.vue";
 import ContactForm from "@/components/ContactForm.vue";
 const propertyManagementData =
   "Our comprehensive property management services encompass a wide range of responsibilities.With our expertise and attention to detail, you can trust us to handle these essential property management tasks like Rent Collections, Tenant Relations, Ejari Registrations, Security Deposit, Annual Inspections and Move-in & Move-out Inspections efficiently and effectively, providing you with a seamless and hassle-free experience.";
+const ownershipProtectionData =
+  "We prioritize the protection of your property and safeguarding your ownership rights. Our dedicated team takes proactive measures to ensure that your property remains secure and free from any attempts of damage or unauthorized occupation. We implement robust security protocols, conduct regular inspections, and promptly address any concerns to mitigate risks effectively. Rest assured that we are committed to preserving the integrity of your property and ensuring that your ownership rights are fully protected throughout our management tenure.";
 const mantinanceData =
   "Our comprehensive property maintenance services cover all aspects of tenant and contractor management. We ensure diligent record-keeping of your property and coordinate our maintenance teams to provide accurate quotations. Based on the estimated costs, we offer guidance to both landlords and tenants regarding the required payment for repairs. For minor expenses, tenants are responsible for rectifying the issues before their tenancy ends. However, for more significant expenses, we provide landlords with a quote for their approval. Rest assured, we handle all property maintenance matters efficiently and effectively.";
 const keyAccountsData =
@@ -183,6 +185,8 @@ const recordKeepingData =
   "We handle all essential documentation and administrative tasks related to your property, ensuring a seamless experience for you. This includes managing service requests that take place in your home, maintaining thorough inspection reports, and keeping accurate financial records. We diligently handle tasks such as organizing bank statements and slips, ensuring that all financial transactions are properly documented and accounted for. You can trust us to take care of these crucial administrative responsibilities, providing you with peace of mind and a hassle-free property management experience.";
 const peaceOfMindData =
   "We understand that real estate investors seek a hassle-free and profitable experience when it comes to managing their properties. That's why we provide stress-free property management services tailored to meet the needs of our clients. Our team is committed to delivering the best-in-class and personalized services, ensuring that you can enjoy the benefits of your investment without the burden of day-to-day management and maintenance tasks. We offer these services at a reasonable and competitive fee, providing you with peace of mind and a smooth, efficient property management experience.";
+const newImmigrantData =
+  "We specialize in providing comprehensive services for new immigrants traveling to Canada, ensuring a comfortable and seamless transition. Our package includes premium accommodation in luxury hotels, ensuring a luxurious and comfortable stay upon your arrival. Additionally, we arrange for convenient transportation, providing you with a dedicated chauffeur and a high-quality vehicle to cater to your transportation needs.";
 const fzooldata =
   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates dignissimos voluptate, necessitatibus dolorum, quisquam quasi magnam aspernatur laborum eaque blanditiis non tempora ipsum ratione quidem odit quis omnis molestias id.";
 </script>
