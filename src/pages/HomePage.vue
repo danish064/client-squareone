@@ -100,7 +100,11 @@
           </li>
         </ul>
       </div>
-      <img src="@/assets/images/buildings.jpg" width="450" alt="" />
+      <div class="w-2/3 flex flex-col gap-y-10">
+        <img src="@/assets/images/img1.jpg" width="650" alt="" />
+        <img src="@/assets/images/img2.jpg" width="650" alt="" />
+        <img src="@/assets/images/img3.jpg" width="650" alt="" />
+      </div>
     </div>
   </div>
   <div class="max-w-[1440px] mx-auto mt-32">
@@ -123,12 +127,12 @@
     </div>
     <div class="flex mb-10">
       <Feature
-      heading="Ownership protection"
-      :desc="fzooldata"
-      icon="https://placehold.co/200x200"
+        heading="Ownership protection"
+        :desc="fzooldata"
+        icon="https://placehold.co/200x200"
       />
       <Feature
-      rtl="true"
+        rtl="true"
         heading="Service 4"
         :desc="fzooldata"
         icon="https://placehold.co/200x200"
