@@ -100,10 +100,10 @@
           </li>
         </ul>
       </div>
-      <div class="w-2/3 flex flex-col gap-y-10">
-        <img src="@/assets/images/img1.jpg" width="650" alt="" />
-        <img src="@/assets/images/img2.jpg" width="650" alt="" />
-        <img src="@/assets/images/img3.jpg" width="650" alt="" />
+      <div class="w-1/2 mt-18 flex flex-col items-center gap-y-10">
+        <img src="@/assets/images/img1.jpg" class="w-[80%]" alt="" />
+        <img src="@/assets/images/img2.jpg" class="w-[80%]" alt="" />
+        <img src="@/assets/images/img3.jpg" class="w-[80%]" alt="" />
       </div>
     </div>
   </div>
@@ -121,7 +121,7 @@
       />
       <Feature
         heading="Mantinance"
-        :desc="fzooldata"
+        :desc="mantinanceData"
         icon="https://placehold.co/200x200"
       />
     </div>
@@ -158,7 +158,8 @@
 <script setup>
 import Feature from "@/components/Feature.vue";
 import ContactForm from "@/components/ContactForm.vue";
-
+const mantinanceData =
+  "Our comprehensive property maintenance services cover all aspects of tenant and contractor management. We ensure diligent record-keeping of your property and coordinate our maintenance teams to provide accurate quotations. Based on the estimated costs, we offer guidance to both landlords and tenants regarding the required payment for repairs. For minor expenses, tenants are responsible for rectifying the issues before their tenancy ends. However, for more significant expenses, we provide landlords with a quote for their approval. Rest assured, we handle all property maintenance matters efficiently and effectively.";
 const fzooldata =
   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates dignissimos voluptate, necessitatibus dolorum, quisquam quasi magnam aspernatur laborum eaque blanditiis non tempora ipsum ratione quidem odit quis omnis molestias id.";
 </script>
