@@ -133,21 +133,21 @@
       />
       <Feature
         rtl="true"
-        heading="Service 4"
-        :desc="fzooldata"
+        heading="KEY ACCOUNTS"
+        :desc="keyAccountsData"
         icon="https://placehold.co/200x200"
       />
     </div>
     <div class="flex mb-10">
       <Feature
         rtl="true"
-        heading="Service 5"
-        :desc="fzooldata"
+        heading="Reports"
+        :desc="reportsData"
         icon="https://placehold.co/200x200"
       />
       <Feature
-        heading="Service 6"
-        :desc="fzooldata"
+        heading="RECORD KEEPING"
+        :desc="recordKeepingData"
         icon="https://placehold.co/200x200"
       />
     </div>
@@ -160,6 +160,12 @@ import Feature from "@/components/Feature.vue";
 import ContactForm from "@/components/ContactForm.vue";
 const mantinanceData =
   "Our comprehensive property maintenance services cover all aspects of tenant and contractor management. We ensure diligent record-keeping of your property and coordinate our maintenance teams to provide accurate quotations. Based on the estimated costs, we offer guidance to both landlords and tenants regarding the required payment for repairs. For minor expenses, tenants are responsible for rectifying the issues before their tenancy ends. However, for more significant expenses, we provide landlords with a quote for their approval. Rest assured, we handle all property maintenance matters efficiently and effectively.";
+const keyAccountsData =
+  "Consider us your dedicated representative on the ground. Every managed property includes a key account manager who will serve as your point of contact and handle all aspects of tenant and property management, from A to Z. They will be responsible for ensuring the well-being of both the tenant and your asset throughout the year. The account manager will maintain open lines of communication with you, keeping you informed and involved in the process. Rest assured that your tenant and property will receive the utmost care and attention under the watchful guidance of our dedicated account manager.";
+const reportsData =
+  "During your tenure with us, we will provide you with regular condition reports to keep you informed about the current state of your property. These reports will offer a comprehensive overview of the property's condition, ensuring that you have a clear understanding of its upkeep and any necessary maintenance or repairs. With these reports in hand, you can stay updated and make informed decisions regarding the management and maintenance of your property.";
+const recordKeepingData =
+  "We handle all essential documentation and administrative tasks related to your property, ensuring a seamless experience for you. This includes managing service requests that take place in your home, maintaining thorough inspection reports, and keeping accurate financial records. We diligently handle tasks such as organizing bank statements and slips, ensuring that all financial transactions are properly documented and accounted for. You can trust us to take care of these crucial administrative responsibilities, providing you with peace of mind and a hassle-free property management experience.";
 const fzooldata =
   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates dignissimos voluptate, necessitatibus dolorum, quisquam quasi magnam aspernatur laborum eaque blanditiis non tempora ipsum ratione quidem odit quis omnis molestias id.";
 </script>

@@ -55,10 +55,10 @@ const props = defineProps({
       /* @apply my-18; */
     }
     > #heading {
-      @apply text-4xl text-left font-semibold mb-4;
+      @apply text-4xl text-left font-aneklatin font-semibold mb-4;
     }
     > #desc {
-      @apply text-lg font-medium font-aneklatin text-left text-primary;
+      @apply text-base font-medium font-aneklatin text-left text-primary;
     }
     > #shadow_box {
       @apply w-[100px] h-1 bg-[#1245591A] rounded-full mt-6;
