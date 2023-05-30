@@ -115,8 +115,8 @@
     <div class="flex mb-10">
       <Feature
         rtl="true"
-        heading="Rent Out"
-        :desc="fzooldata"
+        heading="Property Managment"
+        :desc="propertyManagementData"
         icon="https://placehold.co/200x200"
       />
       <Feature
@@ -171,6 +171,8 @@
 <script setup>
 import Feature from "@/components/Feature.vue";
 import ContactForm from "@/components/ContactForm.vue";
+const propertyManagementData =
+  "Our comprehensive property management services encompass a wide range of responsibilities.With our expertise and attention to detail, you can trust us to handle these essential property management tasks like Rent Collections, Tenant Relations, Ejari Registrations, Security Deposit, Annual Inspections and Move-in & Move-out Inspections efficiently and effectively, providing you with a seamless and hassle-free experience.";
 const mantinanceData =
   "Our comprehensive property maintenance services cover all aspects of tenant and contractor management. We ensure diligent record-keeping of your property and coordinate our maintenance teams to provide accurate quotations. Based on the estimated costs, we offer guidance to both landlords and tenants regarding the required payment for repairs. For minor expenses, tenants are responsible for rectifying the issues before their tenancy ends. However, for more significant expenses, we provide landlords with a quote for their approval. Rest assured, we handle all property maintenance matters efficiently and effectively.";
 const keyAccountsData =
