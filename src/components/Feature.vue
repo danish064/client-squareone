@@ -6,10 +6,10 @@
         <div id="desc">{{ desc }}</div>
         <div id="shadow_box"></div>
       </div>
-      <img :src="icon" alt="" />
+      <img :src="image" alt="" />
     </template>
     <template v-else>
-      <img :src="icon" alt="" />
+      <img :src="image" alt="" />
       <div id="content">
         <div id="heading">{{ heading }}</div>
         <div id="desc">{{ desc }}</div>
@@ -37,8 +37,8 @@ const props = defineProps({
     required: true,
   },
 });
-// const image = new URL(`/src/assets/images/${props.icon}.svg`, import.meta.url)
-//   .href;
+const image = new URL(`/src/assets/images/${props.icon}.svg`, import.meta.url)
+  .href;
 </script>
 <style lang="postcss" scoped>
 #feature_wrapper {
@@ -65,7 +65,7 @@ const props = defineProps({
     }
   }
   > img {
-    @apply max-h-[350px] mt-[60px];
+    @apply max-h-[350px] mt-[60px] w-[200px] h-[200px];
     /* @apply max-w-[388px]; */
   }
 }

@@ -117,25 +117,21 @@
         rtl="true"
         heading="Property Managment"
         :desc="propertyManagementData"
-        icon="https://placehold.co/200x200"
+        icon="peace_of_mind"
       />
-      <Feature
-        heading="Mantinance"
-        :desc="mantinanceData"
-        icon="https://placehold.co/200x200"
-      />
+      <Feature heading="Mantinance" :desc="mantinanceData" icon="maintence" />
     </div>
     <div class="flex mb-10">
       <Feature
         heading="Ownership protection"
         :desc="ownershipProtectionData"
-        icon="https://placehold.co/200x200"
+        icon="property_protection"
       />
       <Feature
         rtl="true"
-        heading="KEY ACCOUNTS"
+        heading="Key Accounts"
         :desc="keyAccountsData"
-        icon="https://placehold.co/200x200"
+        icon="key"
       />
     </div>
     <div class="flex mb-10">
@@ -143,25 +139,25 @@
         rtl="true"
         heading="Reports"
         :desc="reportsData"
-        icon="https://placehold.co/200x200"
+        icon="reports"
       />
       <Feature
-        heading="RECORD KEEPING"
+        heading="Record Keeping"
         :desc="recordKeepingData"
-        icon="https://placehold.co/200x200"
+        icon="record_saving"
       />
     </div>
     <div class="flex mb-10">
       <Feature
         heading="Peace of Mind"
         :desc="peaceOfMindData"
-        icon="https://placehold.co/200x200"
+        icon="peace_of_mind"
       />
       <Feature
         rtl="true"
         heading="Premier New Immigrant Experience"
         :desc="newImmigrantData"
-        icon="https://placehold.co/200x200"
+        icon="premier_new_immigrant"
       />
     </div>
 
