@@ -1,6 +1,10 @@
 <template>
   <div id="hero">
-    <div class="text-[70px] font-medium">SquareOne</div>
+    <div class="flex justify-center items-center">
+      <img class="mr-5" src="@/assets/SO-logo.svg" width="100" alt="" />
+
+      <div class="text-[70px] font-medium">SquareOne</div>
+    </div>
     <div class="pb-10">Your Premier Property Dealing Company</div>
   </div>
 
