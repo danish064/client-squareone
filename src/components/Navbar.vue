@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full h-28 text-white bg-primary sticky top-0">
+  <div class="w-full h-28 text-white bg-[#252628] sticky top-0">
     <div
       class="max-w-[1200px] w-full h-full mx-auto flex justify-between items-center"
     >
@@ -13,7 +13,7 @@
       </RouterLink>
       <RouterLink
         to="/contact"
-        class="hover:bg-[#252628] h-full flex items-center px-5 cursor-pointer"
+        class="bg-yellow-600 text-lg rounded-full border border-white hover:bg-yellow-700 hover:border-none h-[70px] w-[150px] flex justify-center items-center cursor-pointer"
       >
         Contact Us
       </RouterLink>
