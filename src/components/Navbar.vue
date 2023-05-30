@@ -1,7 +1,7 @@
 <template>
   <div class="w-full h-28 text-white bg-[#252628] sticky top-0">
     <div
-      class="max-w-[1200px] w-full h-full mx-auto flex justify-between items-center"
+      class="max-w-[1440px] w-full h-full mx-auto flex justify-between items-center"
     >
       <RouterLink
         to="/"

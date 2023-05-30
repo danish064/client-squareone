@@ -11,7 +11,7 @@
     </div>
   </div>
 
-  <div class="max-w-[1200px] mx-auto pt-20">
+  <div class="max-w-[1440px] mx-auto pt-20">
     <div class="flex gap-x-10 justify-between">
       <div class="w-1/2">
         <div class="text-3xl font-medium mb-10">Why SquareOne?</div>
@@ -103,7 +103,7 @@
       <img src="@/assets/images/buildings.jpg" width="450" alt="" />
     </div>
   </div>
-  <div class="max-w-[1200px] mx-auto mt-32">
+  <div class="max-w-[1440px] mx-auto mt-32">
     <div class="mb-10 text-4xl font-medium text-center">
       What services we provide?
     </div>

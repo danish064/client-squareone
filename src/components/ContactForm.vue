@@ -7,7 +7,7 @@
     <div class="text-center text-slate-500">Have a query?</div>
     <div class="text-center text-4xl font-medium mb-5">Contact US</div>
 
-    <div id="form" class="w-[480px] max-w-[1200px]">
+    <div id="form" class="w-[480px] max-w-[1440px]">
       <form
         action=""
         class="bg-[#252628] p-10 rounded-lg flex flex-col justify-center items-start w-full h-full gap-y-4"
