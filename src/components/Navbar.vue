@@ -11,37 +11,16 @@
         <!-- Square One -->
         <img class="h-full" src="@/assets/SO-logo.svg" alt="" />
       </RouterLink>
-      <div class="flex gap-x-4">
-        <RouterLink
-          to="/"
-          class="bg-yellow-600 text-lg rounded-full border border-white hover:bg-yellow-700 hover:border-none h-[70px] w-[150px] flex justify-center items-center cursor-pointer"
-        >
-          Home
-        </RouterLink>
-        <RouterLink
-          to="/services"
-          class="bg-yellow-600 text-lg rounded-full border border-white hover:bg-yellow-700 hover:border-none h-[70px] w-[150px] flex justify-center items-center cursor-pointer"
-        >
-          Services
-        </RouterLink>
-        <RouterLink
-          to="/maintenance"
-          class="bg-yellow-600 text-lg rounded-full border border-white hover:bg-yellow-700 hover:border-none h-[70px] w-[150px] flex justify-center items-center cursor-pointer"
-        >
+      <div class="flex gap-x-4 items-center">
+        <RouterLink to="/" class="normal-btn"> Home </RouterLink>
+        <RouterLink to="/services" class="normal-btn"> Services </RouterLink>
+        <RouterLink to="/maintenance" class="normal-btn">
           Maintenance
         </RouterLink>
-        <RouterLink
-          to="/screening-criteria"
-          class="bg-yellow-600 text-lg rounded-full border border-white hover:bg-yellow-700 hover:border-none h-[70px] w-[150px] flex justify-center items-center cursor-pointer"
-        >
-        Screening Criteria
+        <RouterLink to="/screening-criteria" class="normal-btn">
+          Screening Criteria
         </RouterLink>
-        <RouterLink
-          to="/contact"
-          class="bg-yellow-600 text-lg rounded-full border border-white hover:bg-yellow-700 hover:border-none h-[70px] w-[150px] flex justify-center items-center cursor-pointer"
-        >
-          Contact Us
-        </RouterLink>
+        <RouterLink to="/contact" class="yellow-btn"> Contact Us </RouterLink>
       </div>
     </div>
   </div>
@@ -49,4 +28,13 @@
 <script setup>
 import { RouterLink } from "vue-router";
 </script>
-<style lang="postcss" scoped></style>
+<style lang="postcss" scoped>
+.yellow-btn {
+  @apply bg-yellow-600 text-lg rounded-full border border-white hover:bg-yellow-700 hover:border-none h-[50px] w-[150px] flex justify-center items-center cursor-pointer;
+}
+.normal-btn {
+  @apply px-5 h-[50px] min-w-[150px];
+  @apply flex justify-center items-center;
+  @apply bg-black text-lg rounded-full border border-white hover:bg-yellow-700 hover:border-none cursor-pointer;
+}
+</style>
