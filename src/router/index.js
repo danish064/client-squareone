@@ -20,6 +20,11 @@ const router = createRouter({
       component: () => import("@/pages/MaintenancePage.vue"),
     },
     {
+      path: "/screening-criteria",
+      name: "screeningCriteria",
+      component: () => import("@/pages/ScreeningCriteria.vue"),
+    },
+    {
       path: "/contact",
       name: "contact",
       component: () => import("@/pages/ContactPage.vue"),

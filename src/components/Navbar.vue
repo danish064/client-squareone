@@ -31,6 +31,12 @@
           Maintenance
         </RouterLink>
         <RouterLink
+          to="/screening-criteria"
+          class="bg-yellow-600 text-lg rounded-full border border-white hover:bg-yellow-700 hover:border-none h-[70px] w-[150px] flex justify-center items-center cursor-pointer"
+        >
+        Screening Criteria
+        </RouterLink>
+        <RouterLink
           to="/contact"
           class="bg-yellow-600 text-lg rounded-full border border-white hover:bg-yellow-700 hover:border-none h-[70px] w-[150px] flex justify-center items-center cursor-pointer"
         >

@@ -3,7 +3,7 @@
     <div class="flex justify-center">
       <img class="mr-5" src="@/assets/SO-logo.svg" width="150" alt="" />
       <div class="flex flex-col justify-center items-start">
-        <div class="text-[70px] font-medium">SquareOne</div>
+        <div class="text-[70px] font-medium">Square One</div>
         <div class="pb-5">
           &nbsp;&nbsp;Your Premier Property Dealing Company
         </div>
@@ -14,7 +14,7 @@
   <div class="max-w-[1440px] mx-auto py-20">
     <div class="flex gap-x-10 justify-between">
       <div class="w-1/2">
-        <div class="text-3xl font-medium mb-10">Why SquareOne?</div>
+        <div class="text-3xl font-medium mb-10">What is SquareOne?</div>
         SquareOne is the ideal choice for property owners seeking reliable,
         professional, and tailored property management services. With our
         experience, comprehensive services, tenant satisfaction focus,
