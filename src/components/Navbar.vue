@@ -11,12 +11,32 @@
         <!-- Square One -->
         <img class="h-full" src="@/assets/SO-logo.svg" alt="" />
       </RouterLink>
-      <RouterLink
-        to="/contact"
-        class="bg-yellow-600 text-lg rounded-full border border-white hover:bg-yellow-700 hover:border-none h-[70px] w-[150px] flex justify-center items-center cursor-pointer"
-      >
-        Contact Us
-      </RouterLink>
+      <div class="flex gap-x-4">
+        <RouterLink
+          to="/"
+          class="bg-yellow-600 text-lg rounded-full border border-white hover:bg-yellow-700 hover:border-none h-[70px] w-[150px] flex justify-center items-center cursor-pointer"
+        >
+          Home
+        </RouterLink>
+        <RouterLink
+          to="/services"
+          class="bg-yellow-600 text-lg rounded-full border border-white hover:bg-yellow-700 hover:border-none h-[70px] w-[150px] flex justify-center items-center cursor-pointer"
+        >
+          Services
+        </RouterLink>
+        <RouterLink
+          to="/maintenance"
+          class="bg-yellow-600 text-lg rounded-full border border-white hover:bg-yellow-700 hover:border-none h-[70px] w-[150px] flex justify-center items-center cursor-pointer"
+        >
+          Maintenance
+        </RouterLink>
+        <RouterLink
+          to="/contact"
+          class="bg-yellow-600 text-lg rounded-full border border-white hover:bg-yellow-700 hover:border-none h-[70px] w-[150px] flex justify-center items-center cursor-pointer"
+        >
+          Contact Us
+        </RouterLink>
+      </div>
     </div>
   </div>
 </template>
